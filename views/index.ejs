@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>Hello</h1>
+    <h1><%=Name%></h1>
+    <p><%=email%></p>
+    <ul>
+        <%for(var i=0;i<hobies.length;i++){%>
+            <li><%=hobies[i]%><li/>
+        <%}%>
+    </ul> -->
+    <!-- <%if(local.content){%>
+        <h1>Name<%=content.Name%></h1>
+        <h1>Email<%=content.Email%></h1>
+        <h1>Password<%=content.Passwored%></h1>
+    <%}else{%> -->
+    <form action="/info" method="POST">
+        <!-- 
+            
+         -->
+        <input type="text" placeholder="enter your name" id="Name" />
+        <label for="Email">Email</label>
+        <input type="text" placeholder="enter the email" id="Email"/>
+        <label for="Passwored">Passwored</label>
+        <input type="text" placeholder="enter yor passwored" id="Passwored"/>
+        <label type="submit" value="SUMBIT"></label>
+    </form>
+<!-- <%}%> -->
+</body>
+</html>
